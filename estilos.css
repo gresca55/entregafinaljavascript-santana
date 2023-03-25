@@ -1,0 +1,74 @@
+:root {
+    --primero:#DEE0E5;
+    --segundo:#64A7C6;
+    --tercero: pink;
+    --cuarto:#848484;
+    --quinto: #588884;
+    --sexto: #A1A1A4;
+    --septimo: #EF42A3;
+    --optavo:#A44CC0; }
+  
+ html {
+    font-size: 62.5%; }
+.cabeza{
+    display: flex;
+}
+.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        text-align: center;
+}
+      
+.container > * {
+        margin: auto;
+ }
+
+.title{
+    color:blanchedalmond;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.imagen{
+    max-width:100%;
+}
+
+a{
+    cursor:pointer;
+}
+.alerta{
+    font-weight:700;
+}
+body{
+    background-color:#EF42A3;
+    overflow-x: hidden;
+}
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:3rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+.modal-content{
+    background-color:aqua;
+}
+.parrafo{
+    font-weight: 900;
+    font-style:normal;
+    font-weight: bold;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:10;
+}
